@@ -295,7 +295,7 @@ Dot.prototype.draw = function() {
       if (!this.d) {
           this.d = document.createElement('img');
           this.d.className = 'ball';
-          this.d.src = 'http://www.google.com/events/io/2011/static/img/ball-' + this.fillStyle + '.png';
+          this.d.src = 'images/ball-' + this.fillStyle + '.png';
           this.ctx.appendChild(this.d);
       }
       this.d.style.left = this.x + 'px';
@@ -771,7 +771,7 @@ var digitColors = ['265897', '265897', '265897', '',
   /**
     * Get the date we're counting down to.
     */
-  var countdownTo = new Date(2013, 6, 31, 23, 59, 59).getTime();
+  var countdownTo = new Date(2022, 11, 14, 01, 59, 59).getTime();
 
   /**
     * Buckets for the Digits.
