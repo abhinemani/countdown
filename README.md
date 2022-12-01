@@ -1,4 +1,4 @@
 countdown
 =========
 
-Countdown visualization
+Countdown visualization for USC Capstone
